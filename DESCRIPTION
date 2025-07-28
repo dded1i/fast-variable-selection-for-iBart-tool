@@ -1,0 +1,22 @@
+Package: iNP
+Title: Iterative nonparametric variable selection for symbolic regression
+Version: 1.0.0
+Authors@R: c(person("Shengbin", "Ye", role = c("aut", "cre", "cph"), email = "sy53@rice.edu", comment = c(ORCID = "0000-0001-8767-2595")),
+             person("Meng", "Li", role = "aut", email = "meng@rice.edu"))
+Maintainer: Shengbin Ye <sy53@rice.edu>
+Description: A statistical method based on Bayesian Additive Regression Trees with Global 
+    Standard Error Permutation Test (BART-G.SE) for descriptor selection 
+    and symbolic regression. It finds the symbolic formula of the regression function 
+    y=f(x) as described in Ye, Senftle, and Li (2023) <https://www.tandfonline.com/doi/abs/10.1080/01621459.2023.2294527>.
+URL: https://github.com/mattsheng/iBART
+BugReports: https://github.com/mattsheng/iBART/issues
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: R (>= 4.0.0)
+Imports: bartMachine (>= 1.2.6), glmnet (>= 4.1-1), foreach, stats
+Suggests: knitr, rmarkdown, ggplot2, ggpubr
+SystemRequirements: Java (>= 8.0)

@@ -1,0 +1,11 @@
+Loading required package: mclust
+Package 'mclust' version 6.1.1
+Type 'citation("mclust")' for citing this R package in publications.
+Loading required package: tree
+
+Attaching package: ‘msos’
+
+The following object is masked from ‘package:datasets’:
+
+    cars
+
